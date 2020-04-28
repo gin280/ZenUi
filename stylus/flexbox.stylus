@@ -1,0 +1,40 @@
+//FLEXBOX
+
+//direciton
+.flex-row
+    flex-direction: row
+
+.flex-row-reverse
+    flex-direction: row-reverse
+
+.flex-column
+    flex-direction: column
+
+.flex-column-reverse
+    flex-direction: column-reverse
+
+//wrap
+.flex-no-warp
+    flex-wrap: nowrap
+
+.flex-wrap
+    flex-wrap: wrap
+
+.flex-wrap-reverse
+    flex-wrap: wrap-reverse
+
+//align items
+.items-stretch
+    align-items: stretch
+
+.items-start
+    align-items: flex-start
+
+.items-center
+    align-items: center
+
+.items-end
+    align-items: flex-end
+
+.items-baseline
+    align-items: baseline
