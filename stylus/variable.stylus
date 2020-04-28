@@ -1,0 +1,6 @@
+//Variable
+$transparent = transparent
+$current = currentColor
+$black = #000000
+$white = #ffffff
+$gray = #f7fafc
