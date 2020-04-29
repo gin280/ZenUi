@@ -38,3 +38,106 @@
 
 .items-baseline
     align-items: baseline
+
+//align content
+.content-start
+    align-content: flex-start
+
+.content-center
+    align-content: center
+
+.content-end
+    align-content: flex-end
+
+.content-between
+    align-content: space-between
+
+.content-around
+    align-content: space-around
+
+//align self
+
+.self-auto
+    align-self: auto
+
+.self-start
+    align-self: flex-start
+
+.self-center
+    align-self: center
+
+.self-end 
+    align-self: flex-end
+
+.self-stretch
+    align-self: stretch
+
+//justify content
+
+.justify-start
+    justify-content: flex-start
+
+.justify-center
+    justify-content: center
+
+.justify-end 
+    justify-content: flex-end
+
+.justify-between
+    justify-content: space-between
+
+.justify-around
+    justify-content: space-around
+
+//flex
+
+//Use .flex-initial to allow a flex item to shrink but not grow, taking into account its initial size
+.flex-initial
+    flex: 0 1 auto
+
+//Use .flex-1 to allow a flex item to grow and shrink as needed, ignoring its initial size
+.flex-1
+    flex: 1 1 0%
+
+//Use .flex-auto to allow a flex item to grow and shrink, taking into account its initial size
+.flex-auto
+    flex 1 1 auto
+
+//Use .flex-none to prevent a flex item from growing or shrinking
+.flex-none
+    flex: none
+
+//flex grow
+
+//Use .flex-grow to allow a flex item to grow to fill any available space
+.flex-grow
+    flex-grow: 1
+
+//Use .flex-grow-0 to prevent a flex item from growing
+.flex-grow-0
+    flex-grow: 0
+
+
+//flex shrink
+
+//Use .flex-shrink to allow a flex item to shrink if needed
+.flex-shrink
+    flex-shrink: 1
+
+//Use .flex-shrink-0 to prevent a flex item from shrinking
+.flex-shrink-0
+    flex-shrink: 0
+
+
+//order
+
+.order-first
+    order: -9999
+
+.order-last
+    order: 9999
+
+.order-none
+    order: 0
+
+
