@@ -67,3 +67,4 @@ Background Attachment:Utilities for controlling how a background image behaves w
 
 .bg-contain
     background-size: contain
+
