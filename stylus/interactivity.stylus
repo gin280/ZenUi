@@ -1,0 +1,58 @@
+// INTERACTIVITY
+
+// Appearance: Utilities for suppressing native form control styling.
+.appearance-none
+    appearance none
+
+// Cursor: Utilities for controlling the cursor style when hovering over an element.
+.cursor-auto
+    cursor: auto
+
+.cursor-default
+    cursor: default
+
+.cursor-pointer
+    cursor: pointer
+
+.cursor-wait
+    cursor: wait
+
+.cursor-text
+    cursor: text
+
+.cursor-move
+    cursor: move
+
+.cursor-not-allowed
+    cursor: not-allowed
+
+// Outline: Utilities for controlling an element's outline.
+.outline-none
+    outline: 0
+
+// Resize: Utilities for controlling how an element can be resized.
+.resize-none
+    resize: none
+
+.resize
+    resize: both
+
+.resize-x
+    resize: horizontal
+
+.resize-y
+    resize: vertical
+
+// User Select: Utilities for controlling whether the user can select text in an element.
+.select-none
+    user-select none
+
+.select-text
+    user-select: text
+
+.select-all
+    user-select: all
+
+.select-auto
+    user-select: auto
+

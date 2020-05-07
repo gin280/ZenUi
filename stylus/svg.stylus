@@ -1,0 +1,19 @@
+// SVG
+
+// Fill: Utilities for styling the fill of SVG elements.
+.fill-current
+    fill: currentColor
+
+// Stroke: Utilities for styling the stroke of SVG elements.
+.stroke-current
+    stroke: currentColor
+
+// Stroke Width
+.stroke-0
+    stroke-width: 0
+
+.stroke-1
+    stroke-width: 1
+
+.stroke-2
+    stroke-width: 2
