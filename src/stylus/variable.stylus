@@ -18,6 +18,7 @@ $gray600 = #718096
 $gray700 = #4a5568
 $gray800 = #2d3748
 $gray900 = #1a202c
+$grayList = $gray100 $gray200 $gray300 $gray400 $gray500 $gray600 $gray700 $gray800 $gray900 
 
 //red
 $red100 = #fff5f5
@@ -29,6 +30,7 @@ $red600 = #e53e3e
 $red700 = #c53030
 $red800 = #9b2c2c
 $red900 = #742a2a
+$redList = $red100 $red200 $red300 $red400 $red500 $red600 $red700 $red800 $red900
 
 //orange
 $orange100 = #fffaf0
@@ -40,6 +42,7 @@ $orange600 = #dd6b20
 $orange700 = #c05621
 $orange800 = #9c4221
 $orange900 = #7b341e
+$orangeList = $orange100 $orange200 $orange300 $orange400 $orange500 $orange600 $orange700 $orange800 $orange900
 
 //yellow
 $yellow100 = #fffff0
@@ -51,6 +54,7 @@ $yellow600 = #d69e2e
 $yellow700 = #b7791f
 $yellow800 = #975a16
 $yellow900 = #744210
+$yellowList = $yellow100 $yellow200 $yellow300 $yellow400 $yellow500 $yellow600 $yellow700 $yellow800 $yellow900
 
 //green
 $green100 = #f0fff4
@@ -62,6 +66,7 @@ $green600 = #38a169
 $green700 = #2f855a
 $green800 = #276749
 $green900 = #22543d
+$greenList = $green100 $green200 $green300 $green400 $green500 $green600 $green700 $green800 $green900
 
 //teal 蓝绿色
 $teal100 = #e6fffa
@@ -73,6 +78,7 @@ $teal600 = #319795
 $teal700 = #2c7a7b
 $teal800 = #285e61
 $teal900 = #234e52
+$tealList = $teal100 $teal200 $teal300 $teal400 $teal500 $teal600 $teal700 $teal800 $teal900
 
 //blue 
 $blue100 = #ebf8ff
@@ -84,6 +90,7 @@ $blue600 = #3182ce
 $blue700 = #2b6cb0
 $blue800 = #2c5282
 $blue900 = #2a4365
+$blueList = $blue100 $blue200 $blue300 $blue400 $blue500 $blue600 $blue700 $blue800 $blue900
 
 //indigo 靛青
 $indigo100 = #ebf4ff
@@ -95,6 +102,7 @@ $indigo600 = #5a67d8
 $indigo700 = #4c51bf
 $indigo800 = #434190
 $indigo900 = #3c366b
+$indigoList = $indigo100 $indigo200 $indigo300 $indigo400 $indigo500 $indigo600 $indigo700 $indigo800 $indigo900
 
 //purple 
 $purple100 = #faf5ff
@@ -106,6 +114,7 @@ $purple600 = #805ad5
 $purple700 = #6b46c1
 $purple800 = #553c9a
 $purple900 = #44337a
+$purpleList = $purple100 $purple200 $purple300 $purple400 $purple500 $purple600 $purple700 $purple800 $purple900
 
 //pink
 $pink100 = #fff5f7
@@ -117,6 +126,7 @@ $pink600 = #d53f8c
 $pink700 = #b83280
 $pink800 = #97266d
 $pink900 = #702459
+$pinkList = $pink100 $pink200 $pink300 $pink400 $pink500 $pink600 $pink700 $pink800 $pink900
 
 // unit
 $unit = 'px'
