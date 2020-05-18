@@ -41,3 +41,6 @@ object {
   display: block;
   vertical-align: middle;
 }
+
+html, body 
+  background-color: purple

@@ -15,7 +15,10 @@ module.exports = {
         new CleanWebpackPlugin({
             cleanAfterEveryBuildPatterns: ['dist']
         }),
-        new MiniCssExtractPlugin()
+        new MiniCssExtractPlugin(),
+        new HtmlWebpackPlugin({
+            title: 'Index'
+        })
     ],
     module: {
         rules: [

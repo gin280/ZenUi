@@ -178,34 +178,44 @@
     color: $white
 
 for i, idx in $grayList
-    .placeholder-gray-{1+idx}00::placeholder i
+    .placeholder-gray-{setIdxLevel(idx)}::placeholder
+        color i
 
 for i, idx in $redList
-    .placeholder-red-{1+idx}00::placeholder i
+    .placeholder-red-{setIdxLevel(idx)}::placeholder
+        color i
 
 for i, idx in $orangeList
-    .placeholder-orange-{1+idx}00::placeholder i
+    .placeholder-orange-{setIdxLevel(idx)}::placeholder
+        color i
 
 for i, idx in $yellowList
-    .placeholder-yellow-{1+idx}00::placeholder i
+    .placeholder-yellow-{setIdxLevel(idx)}::placeholder
+        color i
 
 for i, idx in $greenList
-    .placeholder-green-{1+idx}00::placeholder i
+    .placeholder-green-{setIdxLevel(idx)}::placeholder
+        color i
 
 for i, idx in $tealList
-    .placeholder-teal-{1+idx}00::placeholder i
+    .placeholder-teal-{setIdxLevel(idx)}::placeholder
+        color i
 
 for i, idx in $blueList
-    .placeholder-blue-{1+idx}00::placeholder i
+    .placeholder-blue-{setIdxLevel(idx)}::placeholder
+        color i
 
 for i, idx in $indigoList
-    .placeholder-indigo-{1+idx}00::placeholder i
+    .placeholder-indigo-{setIdxLevel(idx)}::placeholder
+        color i
 
 for i, idx in $purpleList
-    .placeholder-purple-{1+idx}00::placeholder i
+    .placeholder-purple-{setIdxLevel(idx)}::placeholder
+        color i
 
 for i, idx in $pinkList
-    .placeholder-pink-{1+idx}00::placeholder i
+    .placeholder-pink-{setIdxLevel(idx)}::placeholder
+        color i
 
 // Placeholder Opacity
 .placeholder-opacity-0
@@ -250,44 +260,44 @@ for i, idx in $pinkList
     color: #ffffff
 
 for i, idx in $grayList
-    .text-gray-{1+idx}00
+    .text-gray-{setIdxLevel(idx)}
         color: i
 
 for i, idx in $redList
-    .text-red-{1+idx}00
+    .text-red-{1setIdxLevel(idx)}
         color: i
         
 
 for i, idx in $orangeList
-    .text-orange-{1+idx}00
+    .text-orange-{setIdxLevel(idx)}
         color: i
 
 for i, idx in $yellowList
-    .text-yellow-{1+idx}00
+    .text-yellow-{setIdxLevel(idx)}
         color: i
 
 for i, idx in $greenList
-    .text-green-{1+idx}00
+    .text-green-{setIdxLevel(idx)}
         color: i
 
 for i, idx in $tealList
-    .text-teal-{1+idx}00
+    .text-teal-{setIdxLevel(idx)}
         color: i
 
 for i, idx in $blueList
-    .text-blue-{1+idx}00
+    .text-blue-{setIdxLevel(idx)}
         color: i
 
 for i, idx in $indigoList
-    .text-indigo-{1+idx}00
+    .text-indigo-{setIdxLevel(idx)}
         color: i
 
 for i, idx in $purpleList
-    .text-purple-{1+idx}00
+    .text-purple-{setIdxLevel(idx)}
         color: i
 
 for i, idx in $pinkList
-    .text-pink-{1+idx}00
+    .text-pink-{setIdxLevel(idx)}
         color: i
 
 // Text Opacity

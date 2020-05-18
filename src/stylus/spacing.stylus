@@ -56,7 +56,7 @@
     padding: 16rem
 
 .p-px
-    padding: 1{$unit}
+    padding: setUnit(1)
 
 //y
 
@@ -133,8 +133,8 @@
     padding-bottom: 16rem
 
 .py-px
-    padding-top: 1{$unit}
-    padding-bottom: 1{$unit}
+    padding-top: setUnit(1)
+    padding-bottom: setUnit(1)
 
 //x
 
@@ -211,8 +211,8 @@
     padding-right: 16rem
 
 .px-px
-    padding-left: 1{$unit}
-    padding-right: 1{$unit}
+    padding-left: setUnit(1)
+    padding-right: setUnit(1)
 
 
 //t
@@ -271,7 +271,7 @@
     padding-top: 16rem
 
 .pt-px
-    padding-top: 1{$unit}
+    padding-top: setUnit(1)
 
 //bottom
 .pb-0
@@ -329,7 +329,7 @@
     padding-bottom: 16rem
 
 .pb-px
-    padding-bottom: 1{$unit}
+    padding-bottom: setUnit(1)
 
 //left
 .pl-0
@@ -387,7 +387,7 @@
     padding-left: 16rem
 
 .pl-px
-    padding-left: 1{$unit}
+    padding-left: setUnit(1)
 
 // padding right
 .pr-0
@@ -445,7 +445,7 @@
     padding-right: 16rem
 
 .pr-px
-    padding-right: 1{$unit}
+    padding-right: setUnit(1)
 
 
 // MARGIN
@@ -504,7 +504,7 @@
     margin: 16rem
 
 .m-px
-    margin: 1{$unit}
+    margin: setUnit(1)
 
 .m-auto
     margin: auto
@@ -561,7 +561,7 @@
     margin: -16rem
 
 .-m-px
-    margin: -1{$unit}
+    margin: setUnit(-1)
 
 //y
 
@@ -638,8 +638,8 @@
     margin-bottom: 16rem
 
 .my-px
-    margin-top: 1{$unit}
-    margin-bottom: 1{$unit}
+    margin-top: setUnit(1)
+    margin-bottom: setUnit(1)
 
 .my-auto
     margin-top: auto
@@ -714,8 +714,8 @@
     margin-bottom: -16rem
 
 .-my-px
-    margin-top: -1{$unit}
-    margin-bottom: -1{$unit}
+    margin-top: setUnit(1)
+    margin-bottom: setUnit(1)
 
 //x
 
@@ -792,8 +792,8 @@
     margin-right: 16rem
 
 .mx-px
-    margin-left: 1{$unit}
-    margin-right: 1{$unit}
+    margin-left: setUnit(1)
+    margin-right: setUnit(1)
 
 .mx-auto
     margin-left: auto
@@ -868,8 +868,8 @@
     margin-right: -16rem
 
 .-mx-px
-    margin-left: -1{$unit}
-    margin-right: -1{$unit}
+    margin-left: setUnit(-1)
+    margin-right: setUnit(-1)
 
 //t
 .mt-0
@@ -927,7 +927,7 @@
     margin-top: 16rem
 
 .mt-px
-    margin-top: 1{$unit}
+    margin-top: setUnit(1)
 
 .mt-auto
     margin-top: auto
@@ -984,7 +984,7 @@
     margin-top: -16rem
 
 .-mt-px
-    margin-top: -1{$unit}
+    margin-top: setUnit(-1)
 
 //bottom
 .mb-0
@@ -1042,7 +1042,7 @@
     margin-bottom: 16rem
 
 .mb-px
-    margin-bottom: 1{$unit}
+    margin-bottom: setUnit(1)
 
 .mb-auto
     margin-bottom: auto
@@ -1099,7 +1099,7 @@
     margin-bottom: -16rem
 
 .-mb-px
-    margin-bottom: -1{$unit}
+    margin-bottom: setUnit(-1)
 
 //left
 .ml-0
@@ -1157,7 +1157,7 @@
     margin-left: 16rem
 
 .ml-px
-    margin-left: 1{$unit}
+    margin-left: setUnit(1)
 
 .ml-auto
     margin-left: auto
@@ -1214,7 +1214,7 @@
     margin-left: -16rem
 
 .-ml-px
-    margin-left: -1{$unit}
+    margin-left: setUnit(-1)
 
 // margin right
 .mr-0
@@ -1272,7 +1272,7 @@
     margin-right: 16rem
 
 .mr-px
-    margin-right: 1{$unit}
+    margin-right: setUnit(1)
 
 .mr-auto
     margin-right: auto
@@ -1329,7 +1329,7 @@
     margin-right: -16rem
 
 .-mr-px
-    margin-right: -1{$unit}
+    margin-right: setUnit(-1)
 
 // Space Between
 
@@ -1389,7 +1389,7 @@
     margin-left: 16rem
 
 .space-x-px > * + *
-    margin-left: 1{$unit}
+    margin-left: setUnit(1)
 
 .space-x-0 > * + *
     margin-left: 0
@@ -1446,7 +1446,7 @@
     margin-left: -16rem
 
 .-space-x-px > * + *
-    margin-left: -1{$unit}
+    margin-left: setUnit(-1)
 
 // y
 .space-y-0 > * + *
@@ -1504,7 +1504,7 @@
     margin-top: 16rem
 
 .space-y-px > * + *
-    margin-top: 1{$unit}
+    margin-top: setUnit(1)
 
 .space-y-0 > * + *
     margin-top: 0
@@ -1558,7 +1558,7 @@
     margin-top: -14rem
 
 .-space-y-64 > * + *
-    margin-top: -16rem
+    margin-top: -16rem 
 
 .-space-y-px > * + *
-    margin-top: -1{$unit}
+    margin-top: setUnit(-1)

@@ -131,10 +131,13 @@ $pinkList = $pink100 $pink200 $pink300 $pink400 $pink500 $pink600 $pink700 $pink
 // unit
 $unit = 'px'
 
+// set unit
+setUnit(v)
+    v * 1px
 
 
-
-
-
-
-
+// set idx
+setIdxLevel(v) {
+    (v + 1) * 100
+}
+ 
